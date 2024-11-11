@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    let n=s.length()
+    let n=s.length
     const stk=[]
     let stklen=0
     for (let i=0;i<n;i++){
