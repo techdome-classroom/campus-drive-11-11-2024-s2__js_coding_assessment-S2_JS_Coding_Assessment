@@ -24,7 +24,9 @@ var isValid = function(s) {
             stklen-=1
         }
     }
-    return !stk;
+    if stk.length===0{
+        
+    }
 };
 
 module.exports = { isValid };
