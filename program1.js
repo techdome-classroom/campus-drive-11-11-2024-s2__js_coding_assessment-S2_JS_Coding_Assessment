@@ -17,9 +17,8 @@ var isValid = function(s) {
         }
         else if (s[i]===']' && stk[stklen-1]==='['){
             while (stk[stklen-1]==='['){
-                stk.pop()
-                stklen-=1
-            }
+            stk.pop()
+            stklen-=1
         }
         else{
             while (stk[stklen-1]==='{'){
