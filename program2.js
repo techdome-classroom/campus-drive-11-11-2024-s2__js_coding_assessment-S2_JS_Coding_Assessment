@@ -10,6 +10,7 @@ var romanToInt = function(s) {
         if (hm[s[i]]>hm[s[i-1]]){
             num+=(hm[s[i]]-(2*hm[s[i-1]]))
         }
+        else
     }
 };
 
