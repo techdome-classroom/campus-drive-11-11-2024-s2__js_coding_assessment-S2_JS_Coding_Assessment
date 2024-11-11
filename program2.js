@@ -14,6 +14,7 @@ var romanToInt = function(s) {
             num+=hm[s[i]]
         }
     }
+    return num
 };
 
 
