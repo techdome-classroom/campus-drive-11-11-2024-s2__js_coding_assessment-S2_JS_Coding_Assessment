@@ -19,10 +19,9 @@ var isValid = function(s) {
             stk.pop()
             stklen-=1
         }
-        else if
-                stk.pop()
-                stklen-=1
-            }
+        else if (s[i]==='}' && stk[stklen-1]==='{')
+            stk.pop()
+            stklen-=1
         }
     }
     return !stk;
