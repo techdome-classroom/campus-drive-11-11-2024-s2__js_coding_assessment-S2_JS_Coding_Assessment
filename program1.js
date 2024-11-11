@@ -11,7 +11,7 @@ var isValid = function(s) {
             stk.push(s[i])
             stklen+=1
         }
-        else if (s[i]===')' and ){
+        else if (s[i]===')' and stk[stklen-1]==='('){
             while (stk[stklen-1]==='('){
                 stk.pop()
                 stklen-=1
