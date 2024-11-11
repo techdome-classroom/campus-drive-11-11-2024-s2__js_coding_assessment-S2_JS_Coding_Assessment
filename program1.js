@@ -19,7 +19,7 @@ var isValid = function(s) {
             stk.pop()
             stklen-=1
         }
-        else
+        else if
                 stk.pop()
                 stklen-=1
             }
