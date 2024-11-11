@@ -7,7 +7,7 @@ var romanToInt = function(s) {
     let n=s.length
     let num=hm[s[0]]
     for (let i=1;i<n;i++){
-        
+        if hm[s[i]]
     }
 };
 
