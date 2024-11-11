@@ -24,8 +24,11 @@ var isValid = function(s) {
             stklen-=1
         }
     }
-    if stk.length===0{
-        
+    if (stk.length===0){
+        return true
+    }
+    else{
+        return false
     }
 };
 
