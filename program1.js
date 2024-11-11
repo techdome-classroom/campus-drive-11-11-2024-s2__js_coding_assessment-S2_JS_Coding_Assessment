@@ -19,8 +19,7 @@ var isValid = function(s) {
             stk.pop()
             stklen-=1
         }
-        else{
-            while (stk[stklen-1]==='{'){
+        else
                 stk.pop()
                 stklen-=1
             }
