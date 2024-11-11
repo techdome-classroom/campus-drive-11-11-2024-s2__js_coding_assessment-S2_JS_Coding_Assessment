@@ -8,7 +8,7 @@ var romanToInt = function(s) {
     let num=hm[s[0]]
     for (let i=1;i<n;i++){
         if (hm[s[i]]>hm[s[i-1]]){
-            num+=(hm[s[i]]-(2*))
+            num+=(hm[s[i]]-(2*hm[s[i-1]]))
         }
     }
 };
